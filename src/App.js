@@ -29,9 +29,9 @@ const App = () => {
     }
   }
 
-  // useEffect( () => {
-  //   fetchPost()
-  // },[])
+  useEffect( () => {
+    fetchPost()
+  },[])
 
   function handleChange(page){
     setPage(page)
